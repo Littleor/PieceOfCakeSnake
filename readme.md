@@ -4,8 +4,10 @@
 * C 
 * Ncurses 
 ## 实现效果
-* 游戏准备界面: 
-![准备界面][http://d.muwall.cn/snake_demo1.png] 
+* 游戏准备界面:  
+[准备界面][1] 
 
 剩下的等我开发完再来补充,留个坑
 ...
+
+	[1]: http://d.muwall.cn/snake_demo1.png
