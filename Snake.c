@@ -56,6 +56,7 @@ void WaitGame(void){
     int i = 1,n = 0; 
     while ((ch = getch()) != 'b'&&(ch = getch()) != 'B') {
     	wclear(snakeys_world);
+    	mvprintw(offsety+WORLD_HEIGHT/2-5,offsetx+16, "PieceOfCakeSnake");
  	 	mvprintw(offsety+WORLD_HEIGHT/2-1,offsetx+i, "Please enter 'B' to start");
  	 	mvprintw(1,offsetx+WORLD_HEIGHT/2+10, "Score: %d",i);
  	 	box(snakeys_world, 0 , 0);
