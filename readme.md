@@ -12,14 +12,13 @@
 ![游戏结束界面](/src/gameover.png)  
 ## 运行方法 
 项目中的out文件即是我已编译过的程序,可直接在MAC终端运行,如修改可类似下方的指令编译运行
-> cd *项目目录* 
-
-> gcc Snake.c -o Snack.out -lncurses 
-
-> ./Snack.out 
+```
+cd PieceOfCakeSnake
+gcc Snake.c -o Snack.out -lncurses 
+./Snack.out 
+```
 
 ## 小结 
 在实现MAC上写终端贪吃蛇的时候遇到了很多问题,最重要的就是这个库的问题了,安装Ncurses一直报错,直到看到[这篇文章](https://rhardih.io/2010/04/using-ncurses-in-c-for-text-user-interfaces-featuring-xcode/)才学会了在MAC上使用Ncurses.在此感谢这篇文章的作者.
-也正是因此,我自己也写了一篇小博文来记录我的点滴:[点我前往](https://blog.sixming.com/index.php/archives/26/)
-> 可以试试 QQ交流群：826352486 
-> 声明: 用纯C写贪吃蛇只是为了学习交流,也让更多学C的新生能少走弯路,所以源代码大多打了注释,如有问题可以加交流群沟通.
+也正是因此,我自己也写了一篇小博文来记录我的点滴:[点我前往](https://littleor.cn/archives/37.html)
+> 声明: 用纯C写贪吃蛇只是为了学习交流,也让更多学C的新生能少走弯路,所以源代码大多打了注释,如有问题可以Issues交流.
